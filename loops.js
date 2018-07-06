@@ -25,3 +25,16 @@ while(counter <= 333){
     }
     counter += 1;
 }
+
+
+for(var i = 1; i < 20; i++){
+    console.log(i);
+}
+
+for(var i = -10; i < 19; i++){
+    console.log(i);
+}
+
+for(var i = 10; i <= 40; i+=2){
+    console.log(i);
+}
