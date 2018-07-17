@@ -6,3 +6,11 @@ console.log(array[0]);
 array.push(10);
 // use .pop to remove last element of the array
 array.pop();
+// use .shift to remove first element of the array
+array.shift();
+// use .unshift to add as first element of the array
+array.unshift();
+// indexOf returns index of defined value
+array.indexOf(3);
+// use slice to copy part of array into new array
+var shorterArray = array.slice(2,3);
