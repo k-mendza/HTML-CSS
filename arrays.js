@@ -14,3 +14,5 @@ array.unshift();
 array.indexOf(3);
 // use slice to copy part of array into new array
 var shorterArray = array.slice(2,3);
+// to iterate over whole array regardless of it's length
+array.forEach(function(number){console.log(number)});
